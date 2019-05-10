@@ -5,20 +5,28 @@
 font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
 }
 
-nav {
-    clear: both;
-	background-color: aliceblue;
+.navbar .navbar-default .navbar-fixed-top {
+    z-index: -1;
+	position: fixed;
+	top: 0px;
+	display: block;
 }
 
-.footer {
-    text-align: center;
-    clear: both;
+
+ .epnav {
+    height: auto;
+    position:absolute;
+    top: 0px;
+    z-index: 1;
+    margin-top: 37px; 
 }
+
 
 body {
-    background-image: url(../images/blue-watercolor-background-design_1035-8362.jpg);   
-	background-size: cover;
+    background-size: cover;
     background-attachment: fixed;
+    background-color: #80E9FC;
+    background-image: url(../images/blue-watercolor-background-design_1035-8362.jpg);
 }
 
 .pagehead {
@@ -64,26 +72,14 @@ body {
     padding-left: 0px;
 }
 
-.button1 {
-    background-color: #694FE7;
-    font-size: x-large;
-    width: 6em;
-    margin-top: 12px;
-    margin-left: 250px;
-    text-align: center;
-    border-radius: 15%;
-    text-decoration: none;
-    color: #FFFFFF;
-}
+
+
 
 /*index page*/
 
 
-header {
-    margin-top: -17px;
-    margin-left: 950px;
-    margin-bottom: -105px;
-}
+
+
 
 /*lineup page*/
 .asideLeft1 {
@@ -129,11 +125,12 @@ header {
     padding-left: 0px;
 }
 .aside3 {
-	   float: left;
+    float: left;
     padding-top: 45px;
     margin-top: 0px;
     margin-right: 42px;
     padding-left: 130px;
+    padding-bottom: 25px;
 }
 
 .section6 {
@@ -191,7 +188,9 @@ header {
   color: white;
 }
 
-
+.button2 {
+	
+}
 
 /*tickets page*/
 
@@ -202,17 +201,47 @@ header {
     padding-left: 35px;
     margin-top: 60px;
 }
-assidemap {
-
+#mapimg {
+}
+asidemap {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
 }
 
 .arena {
-	  font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+
+.asidemap {
+    width: 46%;
+    margin-left: 105px;
+    margin-top: 48px;
+    background-color: #60DAF4;
+    background-position: 0 0%;
+    background-size: 0 0;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+#arenaimg {
+    float: right;
+    margin-top: -189px;
+    margin-left: 0px;
+    margin-right: 139px;
+}
+#ticket {
 }
 
 /*map page*/
 .opening {
-    width: 100%;
+    width: 90%;
+    height: 530px;
+    text-align: center;
+    margin-left: 5%;
 }
 
 
@@ -250,35 +279,34 @@ assidemap {
     margin-left: 78px;
     text-align: left;
     background-color: #FFFFFF;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 .camp2 {
     float: right;
     clear: left;
-    margin-top: -472px;
-    margin-right: 146px;
+    margin-top: -447px;
+    margin-right: 116px;
     background-color: #FFFFFF;
-    width: 35%;
+    width: 38%;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
 }
-.asidemap {
-    width: 46%;
-    margin-left: 88px;
-    margin-top: 48px;
-    background-color: #20C9E9;
-    background-position: 0 0%;
-    background-size: 0 0;
-}
-#arenaimg {
-    float: right;
-    margin-top: -240px;
-    margin-left: 0px;
-    margin-right: 100px;
-}
+
 .camp3 {
     width: 40%;
     float: left;
-    margin-left: 160px;
+    margin-left: 140px;
     background-color: #FFFFFF;
-    margin-top: 45px;
+    margin-top: 51px;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
 }
 
 .campimg {
@@ -287,3 +315,433 @@ assidemap {
 }
 
 /*info page*/
+
+
+/*gallery page*/
+#galleryimg {
+    min-width: 0px;
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 72px;
+    padding-top: 40px;
+}
+
+/*gallery page*/
+
+
+/*essentials page*/
+.campessent {
+    padding-top: 20px;
+    margin-left: 368px;
+    margin-top: 43px;
+    padding-bottom: 45px;
+}
+/*essentilas page*/
+.list {
+    margin-top: 0px;
+    padding-left: 146px;
+    padding-top: 48px;
+}
+.essentasside {
+    width: 55%;
+    margin-left: 56px;
+    background-color: #60DAF4;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+/*essentilas page*/
+.essentimg {
+    margin-left: 740px;
+    margin-top: -219px;
+}
+#button1 {
+    background-color: #BA81E1;
+}
+.button1 {
+    background-color: #B98AE7;
+    text-align: right;
+    font-size: x-large;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    width: 146px;
+    height: 55px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 274px;
+}
+#button2 {
+    text-align: center;
+}
+
+
+
+
+input[type="checkbox"] {
+	float: left;
+	margin-left: 2px;
+}
+.checkh {
+    float: left;
+    margin-left: 25px;
+    margin-right: 0px;
+    padding-left: 190px;
+    width: 55px;
+    text-align: right;
+    height: 25px;
+}
+
+input[type="text"] {
+    display: inline-block;
+    float: right;
+    margin-top: -15px;
+    top: 0em;	
+}
+
+label, input {
+    display: inline-block;
+    margin-bottom: 0.5em;
+    width: 14em;
+    float: left;
+    text-align: left;
+    margin-top: -22px;
+    margin-left: 270px;
+    margin-right: -82px;
+    font-weight: normal;
+
+}
+#info {
+    display: block;
+    margin-top: -2px;
+    margin-left: 220px;
+}
+br {
+	clear: left;
+}
+
+
+#comments input {
+    text-align: center;
+    width: 15em;
+    padding-top: 0px;
+    margin-top: 7px;
+    margin-left: 173px;
+    margin-right: -173px;
+}
+label {
+	margin: 3px 0 0 0;
+}
+#ticket {
+    margin-left: 150px;
+    width: 72%;
+    margin-top: 70px;
+}
+
+#comments {
+    margin-left: 150px;
+    width: 72%;
+    padding-top: 0px;
+}
+#information {
+    margin-left: 150px;
+    width: 70%;
+}
+#lineupimg {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    width: 37%;
+    clear: both;
+    margin-left: 7%;
+    margin-top: 49%;
+}
+.video {
+    clear: both;
+    margin-top: -441px;
+    padding-left: 530px;
+    margin-left: 75px;
+}
+
+
+.footer {
+    text-align: center;
+    margin-top: 0px;
+    clear: both;
+    height: 10%;
+}
+
+.footerimg {
+    margin-left: 65%;
+    text-align: left;
+    width: 50%;
+    clear: both;
+}
+
+#foot {
+    margin-left: 0px;
+    clear: both;
+    height: 8%;
+}#footerimg2 {
+    margin-top: -60px;
+    margin-left: auto;
+    width: 150px;
+}
+#copyright {
+    margin-left: -375px;
+    margin-top: -46px;
+}
+#mapimg {
+}
+.artists {
+}
+
+@media (max-width: 550px){
+.pagehead {
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: center;
+	margin-top: 30%;
+}
+.epnav {
+    height: auto;
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    margin-top: 37px;
+	width:80%;
+	margin-bottom: 10%;
+	margin-left: 10%;
+	padding-bottom: 15%;
+}
+/*index page*/
+.asideLeft {
+    width: 50%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+}
+.sectionRight {
+    width: 50%;
+    float: none;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-top: 2.5px;
+    padding-right: 2.5px;
+    padding-bottom: 2.5px;
+    padding-left: 2.5px;
+}
+.sectionRight2 {
+    width: 50%;
+    float: none;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.button1 {
+    background-color: #B98AE7;
+    text-align: right;
+    font-size: x-large;
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-top: 10px;
+    width: 70%;
+    height: 55px;
+    padding-right: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.footer {
+	width:90%;
+}
+.footerimg {
+    margin-left: 5%;
+    text-align: left;
+    width: 100%;
+    clear: both;
+}
+#lineupimg {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    text-align: left;
+    width: 50%;
+    clear: both;
+    margin-left: 5%;
+	margin-right: 5%;
+}
+.video {
+    clear: both;
+    margin-top: -476px;
+    padding-left: 5%;
+    margin-left: 5%;
+	width: 80%;
+}
+/*gallery page*/
+
+
+/*essentials page*/
+.campessent {
+    padding-top: 20px;
+    margin-left: 5%;
+	margin-right: 5%;
+    margin-top: 43px;
+    padding-bottom: 45px;
+	float: none;
+	width:60%;
+}
+/*essentilas page*/
+.list {
+    margin-top: 0px;
+    padding-left: 146px;
+    padding-top: 48px;
+}
+.essentasside {
+    width: 90%;
+    background-color: #60DAF4;
+    padding-top: 10px;
+    padding-right: 25px;
+    padding-bottom: 220px;
+    padding-left: 15px;
+	margin-left: 5%;
+	margin-right: 5%;
+	
+}
+/*essentilas page*/
+.essentimg {
+    margin-left: 5%;
+    margin-right: 5%;
+	width: 70%;
+	float:none;
+	padding-top: 5%;
+}
+/*info page*/
+
+
+/*camp page*/
+.camp1 {
+    width: 90%;
+    margin-top: 6px;
+    margin-left: 5%;
+	margin-right: 5%;
+    background-color: #FFFFFF;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.camp2 {
+    float: none;
+    clear: left;
+    background-color: #FFFFFF;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+	width: 90%;
+    margin-top: 6px;
+    margin-left: 5%;
+	margin-right: 5%;
+}
+.camp3 {
+    float: none;
+    background-color: #FFFFFF;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 20px;
+	width: 90%;
+    margin-top: 6px;
+    margin-left: 5%;
+	margin-right: 5%;
+}
+.campimg {
+    margin-left: 5%;
+	margin-right: 5%;
+	width: 80%;
+}
+/*tickets page*/
+
+/*map page*/
+#map {
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 35px;
+    margin-top: 60px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 80%;
+	
+}
+#mapimg {
+	margin-left: 2%;
+	margin-right: 2%;
+	width: 96%;
+}
+
+.asidemap {
+   
+   
+    margin-top: 48px;
+    background-color: #60DAF4;
+    background-position: 0 0%;
+    background-size: 0 0;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+	margin-bottom: 200px;
+}
+#arenaimg {
+    float: none;
+    margin-top: -189px;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 90%;
+}
+#ticket {
+   
+    margin-top: 70px;
+	margin-left: 5%;
+	margin-right: 5%;
+    width: 80%;
+}
+#information {
+    margin-left: 5%;
+	margin-right: 5%;
+    width: 80%;
+}
+#comments {
+    
+    padding-top: 0px;
+	margin-left: 5%;
+	margin-right: 5%;
+    width: 80%;
+}
+label {
+	margin-left: 5%;
+	margin-right: 5%;
+    width: 80%;
+}
+/*info page*/
+
+
+/*gallery page*/
+#galleryimg {
+    min-width: 0px;
+    width: 90%;
+    margin-top: 50px;
+    padding-top: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+}
